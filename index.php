@@ -328,15 +328,20 @@
 						}
 					};
 				
-					navigator.getUserMedia(videoSelector, function( stream ) {
 				
-						if (vid.mozCaptureStream) {
-							vid.mozSrcObject = stream;
-						} else {
-							vid.src = (window.URL && window.URL.createObjectURL(stream)) || stream;
-						}
-						vid.play();
-					}, function() {});
+					
+					
+					navigator.mediaDevices.getUserMedia(videoSelector)
+.then(function(mediaStream) {
+	
+  vid.srcObject = mediaStream;
+  
+})
+.catch(function(err) { console.log(err.name + ": " + err.message); });
+					
+					
+					
+					
 				} 
 
 				vid.addEventListener('canplay', enablestart, false);
