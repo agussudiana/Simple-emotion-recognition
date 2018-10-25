@@ -647,14 +647,7 @@
       </div>
       <div class="modal-body" style="text-align:inherit;">
       <center><img src="styles/img/gambar3.png" ></center>
-	  <p style="text-align:justify;">
-	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seperti yang telah dijelaskan sebelumnya CLM merupakan metode yang digunakan untuk mendeteksi wajah dalam sebuah media. Metode CLM ini sudah diimplementasikan ke dalam suatu library javascript yang dinamakan CLMtrackr. CLMtrackr adalah library javascript yang digunakan untuk menyesuaikan model wajah yang telah dibuat dengan wajah dalam foto atau video dan dapat digunakan untuk mendapatkan posisi yang tepat dari fitur wajah pada foto, atau tepatnya pengenalan wajah dalam video. 
-Tujuan CLMtrackr adalah untuk menyesuaikan model wajah yang telah dibuat dengan wajah dalam foto atau video. Dalam CLMtrackr model wajah terdiri dari 70 
-titik anotasi. 
-CLMtrackr akan mencoba untuk mendeteksi wajah pada elemen tertentu. Jika wajah ditemukan, clmtrackr akan mulai menyesuaikan model wajah, dan posisi dari 70 titik tsb  dapat diperoleh melalui fungsi getCurrentPositions (). Posisi dari 70 titik ini akan dikembangkan agar CLMtracker tidak hanya dapat mengenali wajah tetapi juga dapat mengenali ekspresi wajah dan dioutputkan kedalam persentase. Terdapat juga fungsi getCurrentParameters() yang menghasilkan 24 parameter yang nanti akan digunakan untuk mengenali ekspresi wajah seseorang.
-
-	  
-	  </p>
+	
       </div>
      
     </div>
